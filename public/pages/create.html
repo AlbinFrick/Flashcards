@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="../stylesheets/create.css">
+</head>
+<body>
+<div id="wrapper">
+    <div id="header">
+        <a href="/"><div id="backButton"><img src="../Images/Back.png" alt="backButton"></div></a>
+        <div id="leftLine" class="line"></div>
+        <h1>FLASHCARDS</h1>
+        <div class="line"></div>
+    </div>
+    <div id="content">
+        <div id="submitContainer">
+            <form method="get" id="frm1" action="/set">
+                Set name: <input id="set_name" type="text" name="set_name"><br><br>
+                Course: <input id="course" type="text" name="course">
+                Color int mofo: <input id="color" type="text" name="color"><br><br>
+                <input type="submit" name="submit" value="Add">
+            </form>
+
+            <div id="choosePic" onclick="">
+                <p>Välj bild..</p>
+            </div>
+            <div id="saveCardSet" onclick="">
+                <p>SPARA</p>
+            </div>
+
+        </div>
+    </div>
+    <div id="footer">
+        <p>This product is brought to you by the LAST SCRAPS</p>
+    </div>
+</div>
+</body>
+</html>
