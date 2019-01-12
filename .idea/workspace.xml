@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e7d6a26d-95d7-4326-bd13-0d1c11d4b1d3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Images/color_palette.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/pages/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/pages/create.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/pages/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/pages/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/pages/play.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/pages/play.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/stylesheets/create.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylesheets/create.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/stylesheets/stylesheetCreate.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylesheets/stylesheetCreate.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,10 +20,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/public/pages/play.html">
+        <entry file="file://$PROJECT_DIR$/public/stylesheets/stylesheetCreate.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="31" column="33" lean-forward="true" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
+            <state relative-caret-position="-1358">
+              <caret line="168" column="15" selection-start-line="168" selection-start-column="15" selection-end-line="168" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -52,6 +52,11 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="id16afk" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -65,7 +70,6 @@
         <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/routes/index.js" />
         <option value="$PROJECT_DIR$/public/pages/createNy.html" />
-        <option value="$PROJECT_DIR$/public/stylesheets/stylesheetCreate.css" />
         <option value="$PROJECT_DIR$/public/scripts/createSet2.js" />
         <option value="$PROJECT_DIR$/public/pages/create2.html" />
         <option value="$PROJECT_DIR$/public/stylesheets/stylesheetPlay.css" />
@@ -82,12 +86,14 @@
         <option value="$PROJECT_DIR$/public/pages/play.html" />
         <option value="$PROJECT_DIR$/public/pages/create.html" />
         <option value="$PROJECT_DIR$/public/pages/create.html" />
+        <option value="$PROJECT_DIR$/public/stylesheets/create.css" />
+        <option value="$PROJECT_DIR$/public/stylesheets/stylesheetCreate.css" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="952" />
-    <option name="width" value="977" />
+    <option name="x" value="-8" />
+    <option name="width" value="923" />
     <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -107,6 +113,12 @@
               <item name="Flashcard" type="b2602c69:ProjectViewProjectNode" />
               <item name="flashcards-merged" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Flashcard" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flashcards-merged" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="Images" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Flashcard" type="b2602c69:ProjectViewProjectNode" />
@@ -139,19 +151,19 @@
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\albin\WebstormProjects\flashcards-merged\public\Images" />
+      <recent name="C:\Users\albin\WebstormProjects\flashcards-merged\public\stylesheets" />
+      <recent name="$PROJECT_DIR$/public/Images" />
+      <recent name="$PROJECT_DIR$/public/pages" />
+      <recent name="$PROJECT_DIR$/public/scripts" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\albin\WebstormProjects\flashcards-merged\public\stylesheets" />
       <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$/routes" />
       <recent name="$PROJECT_DIR$/public/pages" />
       <recent name="$PROJECT_DIR$/public/stylesheets" />
-      <recent name="$PROJECT_DIR$/routes/index" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/public/Images" />
-      <recent name="$PROJECT_DIR$/public/pages" />
-      <recent name="$PROJECT_DIR$/public/scripts" />
-      <recent name="$PROJECT_DIR$/public/stylesheets" />
-      <recent name="$PROJECT_DIR$/public/javascripts" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -197,12 +209,20 @@
       <workItem from="1546954167175" duration="34479000" />
       <workItem from="1547120308912" duration="68000" />
       <workItem from="1547120470218" duration="53183000" />
-      <workItem from="1547318917026" duration="243000" />
+      <workItem from="1547318917026" duration="2678000" />
     </task>
+    <task id="LOCAL-00001" summary="new styling">
+      <created>1547319336975</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1547319336975</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87973000" />
+    <option name="totallyTimeSpent" value="90408000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -215,8 +235,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8251121" visible="true" weight="0.15928619" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8251121" visible="true" weight="0.13086583" />
       <window_info id="Structure" order="1" sideWeight="0.1748879" side_tool="true" weight="0.2446386" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -263,6 +284,8 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
+    <MESSAGE value="new styling" />
+    <option name="LAST_COMMIT_MESSAGE" value="new styling" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/views/error.pug">
@@ -301,13 +324,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/create.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="86" lean-forward="true" selection-start-line="86" selection-end-line="86" />
         </state>
       </provider>
     </entry>
@@ -369,16 +385,6 @@
     <entry file="file://$PROJECT_DIR$/public/scripts/index.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/stylesheetCreate.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/stylesheetPlay.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/scripts/createSetOld.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="885">
@@ -393,7 +399,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/stylesheet.css">
+    <entry file="file://$PROJECT_DIR$/../Flashcards/css/stylesheet.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2852">
           <caret line="124" column="16" lean-forward="true" selection-start-line="124" selection-start-column="16" selection-end-line="124" selection-end-column="16" />
@@ -431,13 +437,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/pages/create.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="38" column="7" lean-forward="true" selection-start-line="38" selection-start-column="7" selection-end-line="38" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/pages/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="505">
@@ -448,7 +447,38 @@
     <entry file="file://$PROJECT_DIR$/public/pages/play.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
-          <caret line="31" column="33" lean-forward="true" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
+          <caret line="31" column="33" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/stylesheet.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/stylesheetPlay.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/pages/create.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/create.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1840">
+          <caret line="80" selection-start-line="80" selection-end-line="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/stylesheetCreate.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1358">
+          <caret line="168" column="15" selection-start-line="168" selection-start-column="15" selection-end-line="168" selection-end-column="15" />
         </state>
       </provider>
     </entry>

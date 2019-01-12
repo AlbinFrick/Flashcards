@@ -72,10 +72,9 @@
 
 #content>#submitContainer{
     position: relative;
-    width: 100vh;
+    width: 50vw;
     height: 30vh;
-    display: flex;
-    justify-content: space-evenly;
+
 }
 
 #submitContainer>#form1{
@@ -100,42 +99,37 @@
 #form1>#set_name{
     position: absolute;
     top: 10%;
-    left: 5%;
-    width: 60%;
+    left: 0;
+    width: 50%;
     height: 20%;
 }
 
 #form1>#course{
     position: absolute;
     bottom: 30%;
-    left: 5%;
-    width: 60%;
+    left: 0;
+    width: 50%;
     height: 20%;
 
 }
 
-#form1>.dropdown{
-    position: relative;
-    display: inline-block;
-    bottom: 0;
-}
 
 #submitContainer>#colorPicker{
-    border-radius: 50px;
+    border-radius: 50%;
     position: absolute;
-    width: 100px;
-    height: 100px;
-    right: 10%;
+    width: 18vh;
+    height: 18vh;
+    right: 0;
     top: 10%;
-    background-color: white;
+    border: 0.15vh solid black;
+    transition: transform 150ms ease-in-out;
+
+    background-image: url("/Images/color_palette.png");
+    background-size: cover;
 }
 
-#submitContainer>#colorPicker>#colorText {
-    position: absolute;
-    left: 35%;
-    top: 0;
-    color: #171717;
-    font-family: "Roboto", Sans;
+#submitContainer>#colorPicker:hover{
+    transform: scale(1.05);
 }
 
 #submitContainer>#colorPicker>#picker{
@@ -172,7 +166,7 @@
 }
 
 #content>#addCardSet{
-    width: 110vh;
+    width: 50vw;
     height: 40vh;
     border-radius: 3vh;
     text-align: center;
@@ -253,14 +247,4 @@
     outline: none;
 }
 
-#wrapper>#footer{
-    width: 100%;
-    height: 5vh;
-    background-color: rgba(0,0,255,0.1);
-}
-
-#wrapper>#footer>p{
-    text-align: center;
-    padding-top: 1vh;
-}
 
