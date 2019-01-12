@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/../flashcards_projekt/.idea/Flashcard.iml" filepath="$PROJECT_DIR$/../flashcards_projekt/.idea/Flashcard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/flashcards-merged.iml" filepath="$PROJECT_DIR$/.idea/flashcards-merged.iml" />
     </modules>
   </component>
 </project>
