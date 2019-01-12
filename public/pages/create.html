@@ -2,38 +2,47 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
-    <link rel="stylesheet" type="text/css" href="../stylesheets/create.css">
+    <title>Flashcards</title>
+    <link rel="stylesheet" type="text/css" href="/stylesheets/stylesheetCreate.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/scripts/createSet.js"></script>
 </head>
 <body>
 <div id="wrapper">
     <div id="header">
-        <a href="/"><div id="backButton"><img src="../Images/Back.png" alt="backButton"></div></a>
+        <a href="/">
+            <div id="backButton"><img src="/Images/Back.png" alt="backButton"></div>
+        </a>
         <div id="leftLine" class="line"></div>
         <h1>FLASHCARDS</h1>
         <div class="line"></div>
     </div>
     <div id="content">
         <div id="submitContainer">
-            <form method="get" id="frm1" action="/set">
-                Set name: <input id="set_name" type="text" name="set_name"><br><br>
-                Course: <input id="course" type="text" name="course">
-                Color int mofo: <input id="color" type="text" name="color"><br><br>
-                <input type="submit" name="submit" value="Add">
+            <form method="post" id="form1" action="/set">
+                <input type="text" name="set_name" id="set_name" placeholder="Namn..."><br>
+                <input type="text" name="course" id="course" placeholder="Välj kurs...">
             </form>
-
-            <div id="choosePic" onclick="">
-                <p>Välj bild..</p>
-            </div>
-            <div id="saveCardSet" onclick="">
-                <p>SPARA</p>
+            <div id="colorPicker">
+                <div id="colorText">Färg</div>
+                <input type="color" name="color" id="picker" value="#ffffff" form="form1">
             </div>
 
+        </div>
+        <div id="allCards">
+
+
+        </div>
+        <div id="addCardSet"><img src="/Images/add.png" alt=""></div>
+        <div id="saveCardSet">
+            <p>SPARA</p>
         </div>
     </div>
     <div id="footer">
         <p>This product is brought to you by the LAST SCRAPS</p>
     </div>
 </div>
+
 </body>
 </html>
